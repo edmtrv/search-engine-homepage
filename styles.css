@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Basic */
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 10px;
+}
+
+a,
+i {
+  cursor: pointer;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  padding-bottom: 2px; 
+  border-bottom: 1px solid transparent;
+  transition: all .4s;
+}
+
+a:hover,
+a:active {
+  border-bottom: 1px solid #111;
+  color: #111;
+}
+
+/* Navbar */
+
+/* Clearfix */
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
