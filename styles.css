@@ -9,20 +9,26 @@
 
 body {
   font-family: "Lato", sans-serif;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 a,
 i {
   cursor: pointer;
+  vertical-align: middle;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  
 }
 
 a:link,
 a:visited {
   text-decoration: none;
-  padding-bottom: 2px; 
   border-bottom: 1px solid transparent;
-  transition: all .4s;
+  transition: all .3s;
 }
 
 a:hover,
@@ -32,6 +38,96 @@ a:active {
 }
 
 /* Navbar */
+
+.navbar {
+  position: relative;
+  width: 100%;
+}
+
+.navbar ul {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.navbar ul li {
+  padding-left: 15px; 
+}
+
+/* Search Box */
+
+.search {
+  width: 600px;
+  position: absolute;
+  top: 21%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.search-box input[type=text] {
+  display: block;
+  width: 100%;
+  height: 45px;
+  margin-bottom: 25px;
+  padding: 15px;
+  outline: none;
+  border: 1px solid rgb(212, 209, 209, 0.8);
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(212, 209, 209, 0.8);
+  transition: all .3s;
+}
+
+.search-box input[type=text]:hover,
+.search-box input[type=text]:focus {
+  border-left: 1px solid rgb(202, 202, 202);
+  border-right: 1px solid rgb(202, 202, 202);
+  box-shadow: 0px 2px 8px rgb(197, 197, 197);
+}
+
+.buttons {
+  text-align: center;
+}
+
+input[type=button] {
+  border: 1px solid transparent;
+  border-radius: 2px;
+  background-color: rgb(241, 241, 241);
+  font-weight: 700;
+  padding: 10px 15px;
+  margin-right: 10px;
+  color: rgba(80, 80, 80, 0.7); 
+  transition: all .3s;
+}
+
+input[type=button]:hover {
+  border: 1px solid rgba(124, 124, 124, 0.4);
+  color: #000;
+}
+
+/* Footer */
+
+footer {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+}
+
+.left-footer {
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+}
+
+.right-footer {
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+}
 
 /* Clearfix */
 
