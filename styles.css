@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: #333;
 }
 
 /* Basic */
@@ -16,12 +15,12 @@ a,
 i {
   cursor: pointer;
   vertical-align: middle;
+  color: rgb(82, 82, 82);
 }
 
 li {
   list-style-type: none;
   display: inline-block;
-  
 }
 
 a:link,
@@ -33,8 +32,13 @@ a:visited {
 
 a:hover,
 a:active {
-  border-bottom: 1px solid #111;
-  color: #111;
+  border-bottom: 1px solid rgb(36, 36, 36);
+  color: rgb(36, 36, 36);
+}
+
+i:hover,
+i:active {
+  color: rgb(36, 36, 36);
 }
 
 /* Navbar */
@@ -111,22 +115,24 @@ input[type=button]:hover {
 
 /* Footer */
 
-footer {
-  position: absolute;
-  bottom: 15px;
-  left: 0;
-}
-
 .left-footer {
   position: absolute;
-  bottom: 0;
-  left: 15px;
+  bottom: 15px;
+  left: 30px;
+}
+
+.left-footer li {
+  padding-right: 30px; 
 }
 
 .right-footer {
   position: absolute;
-  bottom: 0;
-  right: 15px;
+  bottom: 15px;
+  right: 30px;
+}
+
+.right-footer li {
+  padding-left: 30px; 
 }
 
 /* Clearfix */
