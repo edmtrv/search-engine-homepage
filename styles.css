@@ -73,6 +73,16 @@ i:active {
   padding-bottom: 25px;
 }
 
+.search-box {
+  position: relative;
+}
+
+.search-box i {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
 .search-box input[type=text] {
   display: block;
   width: 100%;
