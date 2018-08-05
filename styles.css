@@ -16,6 +16,7 @@ i {
   cursor: pointer;
   vertical-align: middle;
   color: rgb(82, 82, 82);
+  text-decoration: none;
 }
 
 li {
@@ -23,15 +24,19 @@ li {
   display: inline-block;
 }
 
-a:link,
-a:visited {
+nav a:link,
+footer a:link,
+nav a:visited,
+footer a:visited {
   text-decoration: none;
   border-bottom: 1px solid transparent;
   transition: all .3s;
 }
 
-a:hover,
-a:active {
+nav a:hover,
+footer a:hover,
+nav a:active,
+footer a:active {
   border-bottom: 1px solid rgb(36, 36, 36);
   color: rgb(36, 36, 36);
 }
@@ -39,6 +44,19 @@ a:active {
 i:hover,
 i:active {
   color: rgb(36, 36, 36);
+}
+
+.btn {
+  padding: 10px 15px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  color: rgba(80, 80, 80, 0.7); 
+  transition: all .3s;
+}
+
+.btn:hover {
+  border: 1px solid rgba(124, 124, 124, 0.4);
+  color: #000;
 }
 
 /* Navbar */
@@ -108,19 +126,10 @@ input[type=text]:focus {
 }
 
 input[type=button] {
-  border: 1px solid transparent;
-  border-radius: 2px;
   background-color: rgb(241, 241, 241);
   font-weight: 700;
-  padding: 10px 15px;
   margin-right: 10px;
-  color: rgba(80, 80, 80, 0.7); 
-  transition: all .3s;
-}
 
-input[type=button]:hover {
-  border: 1px solid rgba(124, 124, 124, 0.4);
-  color: #000;
 }
 
 /* Footer */
@@ -192,6 +201,42 @@ input[type=button]:hover {
 .header-right li {
   margin-left: 15px;
 }
+
+/* Results main */
+
+.main {
+  width: 700px;
+  float: left;
+  margin-left: 170px;
+}
+
+.left-menu {
+  float: left;
+}
+
+.right-menu {
+  float: right;
+}
+
+.right-menu a,
+.left-menu a {
+  color: rgb(124, 124, 124);
+  padding: 10px 10px 10px;
+}
+
+.right-menu a:hover,
+.right-menu a:active,
+.left-menu a:hover,
+.left-menu a:active {
+  color: rgb(32, 32, 32);
+}
+
+.left-menu .selected {
+  color: rgb(64, 135, 216);
+  font-weight: 700;
+  border-bottom: 3px solid rgb(64, 135, 216);
+}
+
 
 /* Clearfix */
 
