@@ -11,6 +11,13 @@ body {
   font-size: 13px;
 }
 
+.main,
+.results-footer {
+  width: 525px;
+  margin-left: 170px;
+  padding: 10px;
+}
+
 a,
 i {
   cursor: pointer;
@@ -25,18 +32,22 @@ li {
 }
 
 nav a:link,
-footer a:link,
+.left-footer a:link,
+.right-footer a:link,
 nav a:visited,
-footer a:visited {
+.left-footer a:visited,
+.right-footer a:visited {
   text-decoration: none;
   border-bottom: 1px solid transparent;
   transition: all .3s;
 }
 
 nav a:hover,
-footer a:hover,
+.left-footer a:hover,
+.right-footer a:hover,
 nav a:active,
-footer a:active {
+.left-footer a:active,
+.right-footer a:active {
   border-bottom: 1px solid rgb(36, 36, 36);
   color: rgb(36, 36, 36);
 }
@@ -125,11 +136,10 @@ input[type=text]:focus {
   text-align: center;
 }
 
-input[type=button] {
+.buttons .btn {
   background-color: rgb(241, 241, 241);
   font-weight: 700;
   margin-right: 10px;
-
 }
 
 /* Footer */
@@ -155,6 +165,7 @@ input[type=button] {
 }
 
 /* Results header */
+
 .results-header {
   padding: 25px 30px 25px 15px;
 }
@@ -231,13 +242,6 @@ input[type=button] {
 
 /* Results main */
 
-.main {
-  width: 525px;
-  float: left;
-  margin-left: 170px;
-  padding: 10px;
-}
-
 .info {
   color: rgb(124, 124, 124);
 }
@@ -302,6 +306,26 @@ input[type=button] {
   font-weight: 700;
 }
 
+/* Results footer */
+
+footer .links {
+  margin: 20px 0;
+}
+
+.links a:link,
+.links a:visited {
+  color: rgb(124, 124, 124);
+  padding: 10px 10px 10px 0;
+}
+
+.links a:hover,
+.links a:active {
+  color: rgb(32, 32, 32);
+}
+
+.location span {
+  font-size: 16px;
+}
 
 
 /* Clearfix */
