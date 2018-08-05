@@ -202,14 +202,6 @@ input[type=button] {
   margin-left: 15px;
 }
 
-/* Results main */
-
-.main {
-  width: 700px;
-  float: left;
-  margin-left: 170px;
-}
-
 .left-menu {
   float: left;
 }
@@ -221,7 +213,7 @@ input[type=button] {
 .right-menu a,
 .left-menu a {
   color: rgb(124, 124, 124);
-  padding: 10px 10px 10px;
+  padding: 10px;
 }
 
 .right-menu a:hover,
@@ -236,6 +228,59 @@ input[type=button] {
   font-weight: 700;
   border-bottom: 3px solid rgb(64, 135, 216);
 }
+
+/* Results main */
+
+.main {
+  width: 525px;
+  float: left;
+  margin-left: 170px;
+  padding: 10px;
+}
+
+.info {
+  color: rgb(124, 124, 124);
+}
+
+.result {
+  margin: 25px 0;
+}
+
+.link {
+  font-size: 20px;
+  color: rgb(20, 69, 206);
+  border-bottom: 1px solid transparent;
+  transition: all .3s;
+}
+
+.link:hover,
+.link:active {
+  border-bottom: 1px solid rgb(20, 69, 206);
+}
+
+.address,
+.address i {
+  color: rgb(2, 114, 39);
+}
+
+.left-related {
+  float: left;
+}
+
+.right-related {
+  float: left;
+  margin-left: 50px;
+}
+
+.related h2 {
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.related a {
+  font-size: 15px;
+}
+
 
 
 /* Clearfix */
