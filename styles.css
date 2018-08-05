@@ -281,6 +281,27 @@ input[type=button] {
   font-size: 15px;
 }
 
+.pagination ul {
+  padding: 20px 0;
+}
+
+.pagination ul {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pagination li {
+  padding-right: 5px;
+}
+
+.pagination li:last-child {
+  padding-left: 25px; 
+}
+
+.pagination ul li:first-child {
+  font-weight: 700;
+}
+
 
 
 /* Clearfix */
