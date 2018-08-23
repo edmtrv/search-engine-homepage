@@ -1,3 +1,4 @@
 A clone of google's home, and results pages
 
-From The Odin Project's Web Development 101(http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
+Home Page [View in Browser](https://imemdm.github.io/google-homepage/)
+Results Page [View in Browser](https://imemdm.github.io/google-homepage/result.html)
