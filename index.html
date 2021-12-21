@@ -1,57 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Search Engine</title>
-</head>
-<body>
-    <header>
+  </head>
+  <body>
+    <div class="container">
+      <header>
         <nav class="navbar">
-            <ul>
-                <li><a href="#">Gmail</a></li>
-                <li><a href="#">Images</a></li>
-                <li><i class="material-icons">apps</i></li>
-                <li><i class="material-icons">add_alert</i></li>
-                <li><i class="material-icons">account_circle</i></li>
-            </ul>
+          <ul class="nav-items">
+            <li class="nav--item"><a class="link-item" href="#">Gmail</a></li>
+            <li class="nav--item"><a class="link-item" href="#">Images</a></li>
+            <li class="nav--item"><i class="material-icons">apps</i></li>
+            <li class="nav--item"><i class="material-icons">add_alert</i></li>
+            <li class="nav--item">
+              <i class="material-icons">account_circle</i>
+            </li>
+          </ul>
         </nav>
-    </header>
-    <section class="search">
+      </header>
+      <main class="search">
         <div class="logo">
-            <img src="./img/logo_big.png" alt="Google Logo">
+          <img src="./img/logo_big.png" alt="Google Logo" />
         </div>
-        <div class="search-box">
-            <form action="#">
-                <input type="text" name="search" autofocus>
-                <i class="material-icons">mic</i>
-                <div class="buttons">
-                    <a href="./result.html" class="btn">Google Search</a>
-                    <a href="./result.html" class="btn">I'm Feeling Lucky</a>
-                </div>
+        <form class="search-form" action="#">
+          <input class="search-input" type="text" name="search" autofocus />
+          <i class="material-icons">mic</i>
+          <div class="buttons">
+            <a href="./result.html" class="btn">Google Search</a>
+            <a href="./result.html" class="btn">I'm Feeling Lucky</a>
+          </div>
+        </form>
+      </main>
+      <footer>
+        <ul class="left-footer">
+          <li><a class="link-item" href="#">Advertising</a></li>
+          <li><a class="link-item" href="#">Business</a></li>
+          <li><a class="link-item" href="#">About</a></li>
+        </ul>
 
-            </form>
-        </div>
-    </section>
-    <footer>
-        <div class="left-footer">
-            <ul>
-                <li><a href="#">Advertising</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-        </div>
-        <div class="right-footer">
-            <ul>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Settings</a></li>
-            </ul>
-        </div>
-    </footer>
-</body>
+        <ul class="right-footer">
+          <li><a class="link-item" href="#">Privacy</a></li>
+          <li><a class="link-item" href="#">Terms</a></li>
+          <li><a class="link-item" href="#">Settings</a></li>
+        </ul>
+      </footer>
+    </div>
+  </body>
 </html>
