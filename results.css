@@ -1,0 +1,224 @@
+/* Reset */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* General */
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a,
+i {
+  cursor: pointer;
+  vertical-align: middle;
+  color: rgb(82, 82, 82);
+  text-decoration: none;
+}
+
+.link-item:link,
+.link-item:visited {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s;
+}
+
+.link-item:hover,
+.link-item:active {
+  border-bottom: 1px solid rgb(36, 36, 36);
+  color: rgb(36, 36, 36);
+}
+
+i:hover,
+i:active {
+  color: rgb(36, 36, 36);
+}
+
+/* Basic */
+
+.main,
+.results-footer {
+  width: 525px;
+  margin-left: 170px;
+  padding: 10px;
+}
+
+/* Results header */
+
+.results-header {
+  padding: 25px 30px 25px 15px;
+}
+
+.header-left {
+  float: left;
+  width: 700px;
+}
+
+.header-left img {
+  float: left;
+  width: 20%;
+  margin-right: 15px;
+}
+
+.search-bar {
+  float: left;
+  width: 75%;
+  position: relative;
+}
+
+.search-bar input[type="text"] {
+  display: inline-block;
+  width: 100%;
+}
+
+.search-bar i:first-of-type {
+  position: absolute;
+  top: 10px;
+  right: 50px;
+}
+
+.search-bar i:last-of-type {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+.header-right {
+  float: right;
+  margin-top: 10px;
+}
+
+.header-right li {
+  margin-left: 15px;
+}
+
+.left-menu {
+  float: left;
+}
+
+.right-menu {
+  float: right;
+}
+
+.right-menu a,
+.left-menu a {
+  color: rgb(124, 124, 124);
+  padding: 10px;
+}
+
+.right-menu a:hover,
+.right-menu a:active,
+.left-menu a:hover,
+.left-menu a:active {
+  color: rgb(32, 32, 32);
+}
+
+.left-menu .selected {
+  color: rgb(64, 135, 216);
+  font-weight: 700;
+  border-bottom: 3px solid rgb(64, 135, 216);
+}
+
+/* Results main */
+
+.info {
+  color: rgb(124, 124, 124);
+}
+
+.result {
+  margin: 25px 0;
+}
+
+.link {
+  font-size: 20px;
+  color: rgb(20, 69, 206);
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  border-bottom: 1px solid rgb(20, 69, 206);
+}
+
+.address,
+.address i {
+  color: rgb(2, 114, 39);
+}
+
+.left-related {
+  float: left;
+}
+
+.right-related {
+  float: left;
+  margin-left: 50px;
+}
+
+.related h2 {
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.related a {
+  font-size: 15px;
+}
+
+.pagination ul {
+  padding: 20px 0;
+}
+
+.pagination ul {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pagination li {
+  padding-right: 5px;
+}
+
+.pagination li:last-child {
+  padding-left: 25px;
+}
+
+.pagination ul li:first-child {
+  font-weight: 700;
+}
+
+/* Results footer */
+
+footer .links {
+  margin: 20px 0;
+}
+
+.links a:link,
+.links a:visited {
+  color: rgb(124, 124, 124);
+  padding: 10px 10px 10px 0;
+}
+
+.links a:hover,
+.links a:active {
+  color: rgb(32, 32, 32);
+}
+
+.location span {
+  font-size: 16px;
+}
+
+/* Clearfix */
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
